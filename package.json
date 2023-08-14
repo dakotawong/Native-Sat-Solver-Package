@@ -1,0 +1,27 @@
+{
+  "name": "native-addon-sample-package",
+  "version": "2.0.0",
+  "description": "Example of an npm package written in C++",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.test.js"
+  },
+  "keywords": [],
+  "author": "Dakota Wong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dakotawong/native-addon-sample-package"
+  },
+  "homepage": "https://github.com/dakotawong/native-addon-sample-package",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
