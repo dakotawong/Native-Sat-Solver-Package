@@ -7,8 +7,8 @@ Napi::String solve(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
 
     // Call `triple` function from the `tripple.h` file using the info input
-    // std::string input = (std::string) info[0].ToString();
-    std::string result = sat("a");
+    std::string input = (std::string) info[0].ToString();
+    std::string result = sat(input);
 
     // Return output as a new `Napi::String` value
     return Napi::String::New(env, result);
