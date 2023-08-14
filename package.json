@@ -1,6 +1,6 @@
 {
   "name": "native-sat-solver-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SAT Solver npm package written in C++",
   "main": "index.js",
   "scripts": {
