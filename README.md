@@ -25,10 +25,10 @@ The addon is dependent on [node-gyp](https://www.npmjs.com/package/node-gyp) whi
 
 # Installation
 
-Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install `Native-Addon-Sample-Package`.
+Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install `native-sat-solver-package`.
 
 ```bash
-npm i native-addon-sample-package
+npm i native-sat-solver-package
 ```
 
 # Usage
