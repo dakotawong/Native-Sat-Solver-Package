@@ -1,7 +1,7 @@
 {
-  "name": "native-addon-sample-package",
-  "version": "2.0.0",
-  "description": "Example of an npm package written in C++",
+  "name": "native-sat-solver-package",
+  "version": "1.0.0",
+  "description": "SAT Solver npm package written in C++",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/index.test.js"
@@ -10,9 +10,9 @@
   "author": "Dakota Wong",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dakotawong/native-addon-sample-package"
+    "url": "https://github.com/dakotawong/Native-Sat-Solver-Package"
   },
-  "homepage": "https://github.com/dakotawong/native-addon-sample-package",
+  "homepage": "https://github.com/dakotawong/Native-Sat-Solver-Package",
   "license": "MIT",
   "engines": {
     "node": ">=18"
