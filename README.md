@@ -1,4 +1,4 @@
-# NPM Package: `Native-Addon-Sample-Package`
+# NPM Package: `Native-Sat-Solver-Package`
 
 ![Tests Passing](https://github.com/dakotawong/Native-Sat-Solver-Package/actions/workflows/npm-tests.yml/badge.svg?branch=main)
 ![Tests Passing](https://github.com/dakotawong/Native-Sat-Solver-Package/actions/workflows/npm-publish.yml/badge.svg?branch=main)
