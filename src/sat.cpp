@@ -29,11 +29,10 @@ void parseLine(const std::string &line, std::string &formulaStr) {
     }
 }
 
-// The program continuously gets new inputs from standard input and outputs to the standard output
-// Terminates once it sees EOF (CTRL+D)
+// Program takes input string 'line' and determines satisfiability as 'sat' or 'unsat'
 std::string sat(std::string line) {
-    std::string formulaStr; // store the formula string
-
+    // store the formula string
+    std::string formulaStr; 
     try {
         // Parse line
         parseLine(line, formulaStr);
